@@ -11,5 +11,5 @@ for i in $(cat /usr/share/dict/words); do
     echo $i
     zzz=$(( $RANDOM % 3 ))
     sleep 0.${zzz}
-done | nc -lk 9999
+done | nc -lk 8888
 
